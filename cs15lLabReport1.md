@@ -11,8 +11,12 @@ This lab report will be a tutorial on remote access. This process will be divide
 ---  
 Step 1: Installing VScode  
 
-In order to connect remotely, you are going to want to use this link:
+In order to connect remotely, you are going to need VSCode. Use this link top download:
       [Link](https://code.visualstudio.com/)  
+      
+Now, if you're on Windows, click on the blue botton that says: **Download for Windows** (stable build)  
+It should look like this:  
+
 
 
      
