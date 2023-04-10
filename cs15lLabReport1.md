@@ -21,8 +21,8 @@ Once you click on the download button, the download will appear somewhere on you
 
 Click on it and set up VSCode
 
-*Note*: if you are on Mac, you are going to want to click on the drop down for the Windows download button and select the MacOS stable build option:    
-  
+*Note*: if you are on Mac, you are going to want to click on the drop down for the Windows download button and select the MacOS stable build option:  
+![Image](MacOSstepLabReport1.png)
 
 
 
