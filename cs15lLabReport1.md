@@ -55,7 +55,10 @@ When you type in that command you are likely going to be prompted with this text
 You are going to want to type in yes since you are connecting to the server for the first time  
 *Note*: If you get this message when you connect to a server you connect to often, it could mean someone is trying to listen in on or control the connection!  
 
-After that, you will be prompted to enter a password. This password is the password to your cs15 account. If you don't know your password, you can use this link to look up your account: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
+After that, you will be prompted to enter a password. This password is the password to your cs15 account. If you don't know your password, you can use this link to look up your account: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)  
+
+Then use this link and follow the tutorial on how to reset your password. There is also this link that shows a step by step process on how to reset your password: 
+[reset password](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view)
 
 
 
