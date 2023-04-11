@@ -59,6 +59,7 @@ After that, you will be prompted to enter a password. This password is the passw
 
 Then use this link and follow the tutorial on how to reset your password. There is also this link that shows a step by step process on how to reset your password: 
 [reset password](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view)  
+(I had to reset my password twice to get it to work!)
 
 Once you've reset your password, wait about 5 minutes and then enter your password into the command prompt  
 *Note*: You will not be able to see the text you type when inputting your password, but you are still typing 
