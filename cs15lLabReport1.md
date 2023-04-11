@@ -17,7 +17,8 @@ In order to connect remotely, you are going to need VSCode. Use this link top do
 Now, if you're on Windows, click on the blue botton that says: **Download for Windows** (stable build)  
  
 Once you click on the download button, the download will appear somewhere on your browser (In my case its at the bottom)  
-
+It should look like this:  
+![Image](first.png) 
 Click on it and set up VSCode
 
 *Note*: if you are on Mac, you are going to want to click on the drop down for the Windows download button and select the MacOS stable build option:  
