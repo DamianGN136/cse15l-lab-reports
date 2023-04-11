@@ -71,6 +71,17 @@ Now you are connected to a remote server on your computer!
 ---
 Step 3: Run Some Commands  
 
+Here are some specific commands that you can run in your terminal:  
+`cd`  
+`cd ~`  
+`ls`  
+`ls -a`  
+`ls -lat`  
+
+This is what it looks like on my end when I input those commands:  
+![Image](
+
+
 
 
 
