@@ -61,7 +61,10 @@ Then use this link and follow the tutorial on how to reset your password. There 
 [reset password](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view)  
 
 Once you've reset your password, wait about 5 minutes and then enter your password into the command prompt  
-*Note*: You will not be able to see the text you type when inputting your password, but you are still typing  
+*Note*: You will not be able to see the text you type when inputting your password, but you are still typing 
+
+After you've entered your password, your terminal should look something like this:  
+![signed in](connected.png)
 
 
 
