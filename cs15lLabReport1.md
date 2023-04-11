@@ -79,7 +79,7 @@ Here are some specific commands that you can run in your terminal:
 `ls -lat`  
 
 This is what it looks like on my end when I input those commands:  
-![Image](
+![Image](commands.png)
 
 
 
