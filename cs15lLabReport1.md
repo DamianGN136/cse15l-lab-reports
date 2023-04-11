@@ -24,7 +24,7 @@ Click on it and set up VSCode
 *Note*: if you are on Mac, you are going to want to click on the drop down for the Windows download button and select the MacOS stable build option:  
 ![Image](MacOSstepLabReport1.png)  
 
-Proceed to install and setup your VSCode on your Mac decive
+Proceed to install and setup your VSCode on your Mac device
 
 ---  
 Step 2: Remotely Connecting
@@ -57,7 +57,7 @@ You are going to want to type in yes since you are connecting to the server for 
 
 After that, you will be prompted to enter a password. This password is the password to your cs15 account. If you don't know your password, you can use this link to look up your account: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)  
 
-Then use this link and follow the tutorial on how to reset your password. There is also this link that shows a step by step process on how to reset your password: 
+Then use this link and follow the tutorial on how to reset your password: 
 [reset password](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view)  
 (I had to reset my password twice to get it to work!)
 
@@ -81,6 +81,8 @@ Here are some specific commands that you can run in your terminal:
 
 This is what it looks like on my end when I input those commands:  
 ![Image](commands.png)
+--- 
+Finished!
 
 
 
