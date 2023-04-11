@@ -34,7 +34,9 @@ if you are running on Windows
 
 If you do not already have it installed, you can click on this link: [Git](https://gitforwindows.org/). Otherwise you cans skip this step. 
 
-When you click on the link there will be a download
+Go ahead and download Git and install it  
+
+Now that you have Git installed, you can open VSCode and open up a new terminal using the Ctrl + ` command
 
 
 
