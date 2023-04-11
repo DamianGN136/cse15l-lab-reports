@@ -40,7 +40,18 @@ Now that you have Git installed, you can open VSCode and open up a new terminal 
 
 In that terminal, use the command: `$ ssh cs15lsp23zz@ieng6.ucsd.edu` to connect to the remote server  
 In place of "zz", type in your the letters of your course specific account  
-(In the command, do not include the "$" as this is not part of the actual command)
+(In the command, do not include the "$" as this is not part of the actual command)  
+
+
+When you type in that command you are likely going to be prompted with this text:  
+`$ ssh cs15lsp23zz@ieng6.ucsd.edu`  
+`The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.`  
+`RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.`  
+`Are you sure you want to continue connecting (yes/no/[fingerprint])?`  
+
+You are going to want to type in yes since you are connecting to the server for the first time  
+
+
 
 
 
