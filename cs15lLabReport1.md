@@ -38,6 +38,9 @@ Go ahead and download Git and install it
 
 Now that you have Git installed, you can open VSCode and open up a new terminal using the Ctrl + ` command  
 
+Your terminal should look similar to this:  
+![Terminal](terminalshot.jpg)
+
 In that terminal, use the command: `$ ssh cs15lsp23zz@ieng6.ucsd.edu` to connect to the remote server  
 In place of "zz", type in your the letters of your course specific account  
 (In the command, do not include the "$" as this is not part of the actual command)  
