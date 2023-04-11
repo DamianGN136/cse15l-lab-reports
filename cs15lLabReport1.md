@@ -64,7 +64,12 @@ Once you've reset your password, wait about 5 minutes and then enter your passwo
 *Note*: You will not be able to see the text you type when inputting your password, but you are still typing 
 
 After you've entered your password, your terminal should look something like this:  
-![signed in](connected.png)
+![signed in](connected.png)  
+
+Now you are connected to a remote server on your computer!  
+
+---
+Step 3: Run Some Commands  
 
 
 
