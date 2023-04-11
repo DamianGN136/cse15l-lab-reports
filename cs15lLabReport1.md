@@ -12,7 +12,7 @@ This lab report will be a tutorial on remote access. This process will be divide
 Step 1: Installing VScode  
 
 In order to connect remotely, you are going to need VSCode. Use this link top download:
-      [Link](https://code.visualstudio.com/)  
+      [VSCode](https://code.visualstudio.com/)  
       
 Now, if you're on Windows, click on the blue botton that says: **Download for Windows** (stable build)  
 It should look like this:  
@@ -22,7 +22,19 @@ Once you click on the download button, the download will appear somewhere on you
 Click on it and set up VSCode
 
 *Note*: if you are on Mac, you are going to want to click on the drop down for the Windows download button and select the MacOS stable build option:  
-![Image](MacOSstepLabReport1.png)
+![Image](MacOSstepLabReport1.png)  
+
+Proceed to install and setup your VSCode on your Mac decive
+
+---  
+Step 2: Remotely Connecting
+
+Now you have VSCode. The next step is to begint the process of remotely connecting. You are going to need GitBash installed onto your device  
+if you are running on Windows  
+
+If you do not already have it installed, you can click on this link: [Git](https://gitforwindows.org/). Otherwise you cans skip this step. 
+
+When you click on the link there will be a download
 
 
 
