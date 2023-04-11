@@ -53,6 +53,7 @@ When you type in that command you are likely going to be prompted with this text
 `Are you sure you want to continue connecting (yes/no/[fingerprint])?`  
 
 You are going to want to type in yes since you are connecting to the server for the first time  
+*Note*: If you get this message when you connect to a server you connect to often, it could mean someone is trying to listen in on or control the connection!
 
 
 
