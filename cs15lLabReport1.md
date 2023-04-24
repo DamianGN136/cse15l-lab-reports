@@ -73,7 +73,7 @@ Now you are connected to a remote server on your computer!
 Step 3: Run Some Commands  
 
 Here are some specific commands that you can run in your terminal:  
-`cd`  
+`cd`  (The cd command allows you to move between directories. It typicaly takes an argument: `cd folder`. If only cd is typed, then the terminal will take you back to your home directory.)
 `cd ~`  
 `ls`  
 `ls -a`  
