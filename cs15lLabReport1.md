@@ -29,7 +29,8 @@ Proceed to install and setup your VSCode on your Mac device
 ---  
 Step 2: Remotely Connecting
 
-Now you have VSCode. The next step is to begin the process of remotely connecting. You are going to need GitBash installed onto your device if you are running on Windows
+Now you have VSCode. The next step is to begin the process of remotely connecting. You are going to need GitBash installed onto your device if you are running on
+Windows
 
 If you do not already have it installed, you can click on this link: [Git](https://gitforwindows.org/). Otherwise you cans skip this step. 
 
