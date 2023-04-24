@@ -79,8 +79,12 @@ Here are some specific commands that you can run in your terminal:
 `ls -lat`  (The `ls -lat` command will display a list of all files sorted by date.)  
 `ls -r`  (The `ls -r` command will display the names of files/directories from the current directory you are in, but in the reverse order.)
 
-This is what it looks like on my end when I input those commands:  
-![Image](commands.png)
+This is what the commands on my end look like  
+
+![Image](runcommands.png)  
+
+
+Notice how the first time I ran the `cd` command it didn't really do anything. That's because I was already in my home directory. And you can see you directory on the very left hand before the space where you write your command. After that I typed the command `ls` and as you can see, it showed me the files/directories that are within the current directory. As an example, I decided to cd into the "wavelet" directory by using `cd wavelet`. This took me to the wavelet directory (notice the left hand side now shows the directory with wavelet at the end). From there I used ls to display all the directories within wavelet. Then I used just `cd` to go back to my home directory and I used ls -r to show the directories inside my home directory, but in reverse order. 
 --- 
 
 Now you have learned how to remotely connect to another computer!
