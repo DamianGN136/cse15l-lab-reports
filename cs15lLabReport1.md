@@ -73,11 +73,10 @@ Now you are connected to a remote server on your computer!
 Step 3: Run Some Commands  
 
 Here are some specific commands that you can run in your terminal:  
-`cd`  (The cd command allows you to move between directories. It typicaly takes an argument: `cd folder`. If only cd is typed, then the terminal will take you back to your home directory.)
-`cd ~`  
-`ls`  
-`ls -a`  
-`ls -lat`  
+`cd`  (The `cd` command allows you to move between directories. It typicaly takes an argument: `cd folder`. If only cd is typed, then the terminal will take you back to your home directory.)  
+`ls`  (The `ls` command allows you to display the names and features of files and directories. If you use `ls` without any arguments, it will show you the names of the files/directories availabe from the current directory that you are in.   
+`ls -a` (The `ls -a` command will display all file names including hidden files starting with a ".".)
+`ls -lat`  (The `ls -lat` command will display a list of all files sorted by date."
 
 This is what it looks like on my end when I input those commands:  
 ![Image](commands.png)
