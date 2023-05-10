@@ -45,10 +45,38 @@ This is my code for my StringServer:
 This is the first screenshot of using the `/add-message` command in the String Server:  
 ![Image](StringServercmd.png)  
 
-For this first add-message command, the handleRequest method is called; particularly the else statement of this method. When "/add-message" is used in the command line, the URI url parameter is split by the "=" sign. The index 1 argument is the message that is added to the `String input` field that was initialized before the method. Additionally, after the string is added a new line is also added to prepare a new line for any new strings. Before the /add-message command was used, the `input` field was just an empty string. The input field was changed because it was an empty string when it was initialized and after the method call there is not a new string added to it.  
+For this first add-message command the first method that is called is the main method in order to start up the server. Then once it has been started, the handleRequest method is called when the URI url has "/add-message"; particularly the else statement of this method. When "/add-message" is used in the command line, the URI url parameter is split by the "=" sign. The index 1 argument is the message that is added to the `String input` field that was initialized before the method. Additionally, after the string is added a new line is also added to prepare a new line for any new strings. Before the /add-message command was used, the `input` field was just an empty string. The input field was changed because it was an empty string when it was initialized and after the method call there is not a new string added to it.  
 
 ![Image](StringServercmd2.png)  
 
-For this second add-message command, the handleRequest method is also called
+For this second add-message command, the main method is not called again because the server is already running and was not stopped in this case. The handleRequest method is called, particularly the else statement. Again, the URI url is split by the "=" sign and the index 1 argument becomes the string that is added to the input field. Instead of being an empty string, the string already contains the string we added previously: "Data". Now this field is changed and "Structures" is added to the string on a new line.  
+
+Part 2:  
+The bug I am choosing to analye is the bug within the Reversed method in the ArrayExamples.java file. The purpose of this method is to create a new array and copy over elements from a given array to the new array in reverse. The bug in this method is that it always returns an array full of zeros. This is because instead of copying over elements from the given array to the new array, this method does the opposite. It copies elements from the new empty array to the given array which results in an array full of zeros.  
+
+Junit failure-inducing test:   
+
+    @Test  
+    public void testingReverse(){  
+        int [] input1 = {1,2,3,4,5};  
+        assertArrayEquals(new int[]{10,9,8,7,6,5,4,3,2}, ArrayExamples.reversed(input1));
+    }  
+This test will fail because the ArrayExamples method returns an array full of zeros.  
+
+Junit non-failure-inducing input:  
+
+    @Test
+    pulic void passTestingReverse(){
+        int[] input1 = {0,0,0,0};
+        assertArrayEquals(new int[]{0,0,0,0}, ArrayExamples.reversed(input1));
+    }  
+This test will pass because the array that is returned is always full of zeros. So a given array full of zeros will match the resulting array full of zeros as well.  
+
+
+
+
+
+Part 3:  
+In this lab I overall learned a lot about web servers and URLs. I learned about the different parts of a URL and how they affect what is displayed on a web server. I also learned how to write the code to start up a simple web server and how to add a command that would change the web server with queries and strings. 
 
 
