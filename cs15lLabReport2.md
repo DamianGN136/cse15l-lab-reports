@@ -47,6 +47,8 @@ This is the first screenshot of using the `/add-message` command in the String S
 
 For this first add-message command, the handleRequest method is called; particularly the else statement of this method. When "/add-message" is used in the command line, the URI url parameter is split by the "=" sign. The index 1 argument is the message that is added to the `String input` field that was initialized before the method. Additionally, after the string is added a new line is also added to prepare a new line for any new strings. Before the /add-message command was used, the `input` field was just an empty string. The input field was changed because it was an empty string when it was initialized and after the method call there is not a new string added to it.  
 
-![Image](StringServercmd2.png)
+![Image](StringServercmd2.png)  
+
+For this second add-message command, the handleRequest method is also called
 
 
