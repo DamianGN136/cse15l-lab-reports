@@ -59,7 +59,7 @@ Junit failure-inducing test:
     @Test  
     public void testingReverse(){  
         int [] input1 = {1,2,3,4,5};  
-        assertArrayEquals(new int[]{10,9,8,7,6,5,4,3,2}, ArrayExamples.reversed(input1));
+        assertArrayEquals(new int[]{5,4,3,2,1}, ArrayExamples.reversed(input1));
     }  
 This test will fail because the ArrayExamples method returns an array full of zeros.  
 
@@ -72,6 +72,33 @@ Junit non-failure-inducing input:
     }  
 This test will pass because the array that is returned is always full of zeros. So a given array full of zeros will match the resulting array full of zeros as well.  
 
+Symptom:  
+
+Output of first test:  
+![Image](
+
+
+
+Before code (bugged):  
+
+    static int[] reversed(int[] arr) {
+        int[] newArray = new int[arr.length];
+        for(int i = 0; i < arr.length; i += 1) {
+          arr[i] = newArray[arr.length - i - 1];
+        }
+        return arr;
+      }
+After code (debugged): 
+
+    static int[] reversed(int[] arr) {
+        int[] newArray = new int[arr.length];
+        for(int i = 0; i < arr.length; i += 1) {
+          newArray[arr.length - i - 1] = arr[i] ;
+        }
+     return newArray;
+      }  
+
+The difference between theb before and after code is that the after code is setting elements in the new array equal to those in the given array. The after code now also returns the newArray instead of the given array arr. 
 
 
 
