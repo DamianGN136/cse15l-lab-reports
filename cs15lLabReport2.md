@@ -75,7 +75,12 @@ This test will pass because the array that is returned is always full of zeros. 
 Symptom:  
 
 Output of first test:  
-![Image](
+![Image](output.png)  
+
+Output of second test:  
+![Image](output2.png)  
+
+
 
 
 
