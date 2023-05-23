@@ -5,7 +5,7 @@ Going through the tasks starting at step 4:
 
 4. Logging into my ieng6 account:  
 
-![step1](https://github.com/DamianGN136/cse15l-lab-reports/blob/main/Screen%20Shot%202023-05-22%20at%204.17.08%20PM.png)
+![step1](screenshot1)
 
 Here at the very top I type the ssh command and enter my login in this format: `local_computer_username`@`host_username`  
 
