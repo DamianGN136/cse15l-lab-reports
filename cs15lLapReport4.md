@@ -53,5 +53,17 @@ Command 6: `:wq`
 
 8. Run the tests demonstrating that they now succeed  
 
+![step5](https://github.com/DamianGN136/cse15l-lab-reports/blob/main/Screen%20Shot%202023-05-22%20at%207.23.53%20PM.png)  
+
+By using `javac *.java` again you can run the java files again. The tests should run and pass, but for whatever reason on my end they still don't run. It looks like it has something to do with junit but I'm not sure.  
+
+9. Commit and push the resulting change to your Github account:  
+
+After returning to the ieng6 terminal, I used the command `git add ListExamples.java`. This adds the files that you want to commit. Then I used `git commit -m "message"` to commit the  file that was changed. the -m part of the command allows you to put a commit message right after it. It can be anything. Then I used `git push -u origin main`. This command allows you to push committed changes onto a branch. the `u` part of the command means that this is the first time you are pushing onto this repository. The `origin` means that you are setting that branch as the origin of the push. The `main` is name of the branch you are pushing onto. It should look like this:  
+
+
+
+
+
 
 
