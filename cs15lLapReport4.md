@@ -26,7 +26,13 @@ As I demonstrated in the image, after cloning the repository you can use the `ls
 In order to run the tests, you need to `cd` into the lab7 repository from your ieng6 terminal. Use the commnand `cd` + `lab7`  
 You can then use the `ls` command to look at the files within the lab7 repository. To run the files you can use the command `javac *.java`. This will compile using javac, but instead of one specific file it will compile every .java file in the repository. In this case it will run the ListExamples.java and ListExamplesTest.java files since they are the only two .java files in the repository. When you run this command, the tests should fail and the output should look like this:  
 
-![step3](
+![step3](https://github.com/DamianGN136/cse15l-lab-reports/blob/main/Screen%20Shot%202023-05-22%20at%205.34.03%20PM.png)  
+
+7. Edit the code file to fix the failing test:  
+
+To edit the file that contains an error, we have to use Vim to edit the file. To do this, I used the command `vim ListExamples.java`. Type the full name of the file including the file extension. After inputting the command, it should look like this:  
+
+![step4](
 
 
 
