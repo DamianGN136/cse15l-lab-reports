@@ -23,7 +23,7 @@ As I demonstrated in the image, after cloning the repository you can use the `ls
 
 6. Run the tests and demonstrate that they fail:  
 
-In order to run the tests, you need to `cd` into the lab7 repository from your ieng6 terminal. Use the commnand `cd` + `lab7`  
+In order to run the tests, you need to `cd` into the lab7 repository from your ieng6 terminal. Use the commnand `cd lab7`  
 You can then use the `ls` command to look at the files within the lab7 repository. To run the files you can use the command `javac *.java`. This will compile using javac, but instead of one specific file it will compile every .java file in the repository. In this case it will run the ListExamples.java and ListExamplesTest.java files since they are the only two .java files in the repository. When you run this command, the tests should fail and the output should look like this:  
 
 ![step3](https://github.com/DamianGN136/cse15l-lab-reports/blob/main/Screen%20Shot%202023-05-22%20at%205.34.03%20PM.png)  
@@ -61,7 +61,9 @@ By using `javac *.java` again you can run the java files again. The tests should
 
 After returning to the ieng6 terminal, I used the command `git add ListExamples.java`. This adds the files that you want to commit. Then I used `git commit -m "message"` to commit the  file that was changed. the -m part of the command allows you to put a commit message right after it. It can be anything. Then I used `git push -u origin main`. This command allows you to push committed changes onto a branch. the `u` part of the command means that this is the first time you are pushing onto this repository. The `origin` means that you are setting that branch as the origin of the push. The `main` is name of the branch you are pushing onto. It should look like this:  
 
+![step6](https://github.com/DamianGN136/cse15l-lab-reports/blob/main/Screen%20Shot%202023-05-22%20at%208.32.51%20PM.png)  
 
+For whatever reason, after using the push command I am promted with a username and password request. After inputting them it then tells me that password authentication was removed. I'm not sure how to fix it and I didn't get a chance to ask in lab. 
 
 
 
