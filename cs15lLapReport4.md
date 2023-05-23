@@ -32,7 +32,26 @@ You can then use the `ls` command to look at the files within the lab7 repositor
 
 To edit the file that contains an error, we have to use Vim to edit the file. To do this, I used the command `vim ListExamples.java`. Type the full name of the file including the file extension. After inputting the command, it should look like this:  
 
-![step4](
+![step4](https://github.com/DamianGN136/cse15l-lab-reports/blob/main/Screen%20Shot%202023-05-22%20at%206.27.32%20PM.png)  
+
+After entering the vim screen, the selector is at the bottom of the screen. To make the change we want (change index1 to index2 in the last while loop), we can use the following commands:  
+Command 1: `?1 <Enter>`  
+  *Note:* The `?` in the command searches for things backwards through the document (starting from the bottom). In this case we are searching for a number 1 to replace it with 2 in the last while loop. After searching for it, it will highlight the first occurence of 1 at the botom of the page. Then hit the enter key  
+
+Command 2: `n`  
+   *Note:* The `n` command locates the next iteration of the last thing you searched for. Since the cursor should be at the bottom of the page when you open up vim, n will select iterations of n going from down-upwards. In thise case, the iteration of 1 that we need to change is right after the first iteration found by the find command so we will only press n one time to select what we want to change. 
+
+Command 3:`x`  
+   *Note:* The `x` command deletes the character that your cursur currently has selected. This is useful since we want to get rid of the number 1 and then replace it with 2.  
+   
+Command 4/5: `i`, then insert the number 2, then `<Esc>`  
+   *Note:* The `i` command allows you to enter insert mode in vim. This will allow you to actually add text or delete it and do any other edits. Insert mode will allow you to start making edits in the place your cursor is currently in. Since the previous steps already took us to the exact spot we want to change, we can just insert the number 2 right after going into insert mode. After inserting the numer 2, you can press the escape key to exit insert mode  
+   
+Command 6: `:wq`  
+   *Note:* The `:wq` saves the edits you have made and then exits vim  
+
+
+8. Run the tests demonstrating that they now succeed  
 
 
 
